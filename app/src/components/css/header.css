@@ -1,0 +1,51 @@
+.header-container {
+    height: 10vh; /* Altura do contêiner do cabeçalho */
+    width: 100%; /* Largura total do cabeçalho */
+    background: rgba(100, 199, 255, 1); /* Cor de fundo azul claro */
+    display: flex; /* Usando flexbox para organizar os elementos internos */
+    justify-content: space-between; /* Espaça os itens, deixando espaço entre eles */
+    position: relative; /* Para permitir o posicionamento absoluto de elementos internos */
+}
+
+.header-left {
+    height: 100%; /* Altura total do lado esquerdo do cabeçalho */
+    display: flex; /* Usando flexbox para organizar os itens internos */
+    align-items: center; /* Alinha verticalmente ao centro dentro do contêiner flex */
+    justify-content: start; /* Alinha os itens no início do lado esquerdo */
+    padding-left: 1%; /* Espaçamento à esquerda */
+}
+
+.header-center {
+    position: absolute; /* Mantém o texto centralizado horizontalmente */
+    left: 50%; /* Move para o centro da tela */
+    transform: translateX(-50%); /* Ajusta o posicionamento para centralizar exatamente */
+    text-align: center; /* Centraliza o texto */
+    color: white; /* Altera a cor do texto para branco */
+    font-size: 3rem; /* Aumenta o tamanho da fonte para 2rem */
+    top: 50%; /* Move o texto para o meio do cabeçalho na vertical */
+    transform: translate(-50%, -50%); /* Centraliza o texto horizontal e verticalmente */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Adiciona sombra ao texto */
+}
+
+
+.header-right {
+    height: 100%; /* Altura total do lado direito do cabeçalho */
+    display: flex; /* Usando flexbox para organizar os itens internos */
+    align-items: center; /* Alinha verticalmente ao centro dentro do contêiner flex */
+    justify-content: flex-end; /* Alinha os itens no final do lado direito */
+    padding-right: 1%; /* Espaçamento à direita */
+}
+
+.header-right img {
+    border-radius: 100%; /* Bordas arredondadas para criar um efeito circular na imagem */
+    height: 60%; /* Altura da imagem definida como 60% do contêiner pai */
+}
+
+.hamburger-button {
+    background: none; /* Sem fundo para o botão */
+    border: none; /* Sem borda para o botão */
+    font-size: 2.5rem; /* Tamanho do ícone do botão */
+    color: #ffffff; /* Cor do ícone como branco */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    margin-left: 10px; /* Espaço entre o botão de hambúrguer e a borda esquerda */
+}

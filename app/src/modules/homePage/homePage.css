@@ -1,0 +1,20 @@
+/* Estiliza o contêiner principal da página inicial */
+.home-container {
+    height: 100vh; /* Define a altura do contêiner para preencher 100% da altura da janela de visualização */
+    width: 100%; /* Define a largura para preencher 100% da largura da janela de visualização */
+    position: relative; /* Define a posição como relativa para que elementos filhos com posição absoluta possam ser posicionados em relação a este contêiner */
+    overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites do contêiner */
+}
+
+/* Estiliza a área de conteúdo da página */
+.home-content {
+    position: absolute; /* Define a posição como absoluta para que o elemento possa ser posicionado dentro do .home-container */
+    top: 10vh; /* Posiciona o elemento 10% da altura da janela de visualização a partir do topo */
+    left: 10%; /* Posiciona o elemento 10% da largura da janela de visualização a partir da esquerda */
+    height: 82vh; /* Define a altura da área de conteúdo para preencher 82% da altura da janela de visualização */
+    width: 76%; /* Define a largura da área de conteúdo para preencher 76% da largura da janela de visualização */
+    border-radius: 20px; /* Arredonda os cantos do contêiner com um raio de 20px */
+    margin: 1%; /* Adiciona uma margem de 1% ao redor do contêiner */
+    border: 1px solid #D6d6d6; /* Adiciona uma borda cinza clara de 1px ao redor do contêiner */
+    box-shadow: 0 4px 4px 4px #d6d6d6; /* Adiciona uma sombra ao redor do contêiner com um efeito de desfoque */
+}
